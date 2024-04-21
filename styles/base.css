@@ -1,0 +1,54 @@
+:root{
+    --primary-color: #192A51;
+    --secundary-color: #7E8987;
+    --third-color: #E3B505;
+}
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+div nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: var(--third-color);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.02em;
+}
+h1{
+    background-color: var(--primary-color);
+    color: white;
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 span{
+    color: var(--third-color);
+    
+}
+
+
+div{
+    background-color: var(--secundary-color);
+    padding: 15px;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+#modification{
+    color: var(--third-color);
+}
