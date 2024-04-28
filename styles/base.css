@@ -4,13 +4,32 @@
     --third-color: #E3B505;
 }
 
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.aboutme{
+    grid-column: 1/3;
+    margin: 0% 5%;
+    border: solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+.resources{
+    grid-column: 3/4;
+    border: solid var(--primary-color);
+    border-radius: 0.5rem;
 
+}
 body{
     font-family: "Open Sans", sans-serif;
+}
+.navigator{
+    margin: 1% 0%;
 }
 div nav{
     display: flex;
     justify-content: space-between;
+    padding: 0% 5%;
 }
 nav a{
     color: white;
@@ -36,7 +55,19 @@ h1 span{
     color: var(--third-color);
     
 }
-
+h2{
+    color: white;
+    background-color: var(--primary-color);
+    margin: 0%;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.country{
+    background-color: white;
+    margin: 5%;
+    border-top: solid black;
+    padding: 1% 5%;
+}
 
 div{
     background-color: var(--secundary-color);
@@ -52,3 +83,68 @@ footer{
 #modification{
     color: var(--third-color);
 }
+
+.info{
+    display: grid;
+    background-color: white;
+    padding: 0% 5%;
+    margin: 0% 5%;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: auto;
+
+}
+img{
+    width: 90%;
+    height: 90%;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+.info p{
+    grid-column: 1/3;
+    grid-row: 1/1;
+    text-align: justify;
+    margin: 10% 5%;
+}
+.info img{
+    margin: 5% 0%;
+    grid-column: 3/4;
+    grid-row: 1/1;
+    justify-self: center ;
+}
+
+.country{
+    display: grid;
+    background-color: white;
+    padding: 0% 5%;
+    margin: 0% 5%;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: auto;
+
+}
+
+.country p{
+    grid-column: 2/4;
+    grid-row: 1/1;
+    text-align: justify;
+}
+.country img{
+    grid-column: 1/2;
+    grid-row: 1/1;
+    justify-self: center ;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+}
+
+.list{
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list a{
+    margin: 5%  0% ;
+}
+
