@@ -148,3 +148,14 @@ img{
     margin: 5%  0% ;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      text-size-adjust: 50%;
+    }
+
+    div nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }

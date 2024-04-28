@@ -1,6 +1,10 @@
-const date = document.querySelector("#currentyear");
+
+const dates = document.querySelector("#currentyear");
+const last = document.querySelector("#modification");
 
 const today = new Date();
 
 
-date.innerHTML = `getFullYear(): <span class="highlight">${today.getFullYear()}</span>`;
+dates.innerHTML = `&copy<span>${today.getFullYear()}</span> Ronal Balmore Orellana Bonilla - El Salvador`;
+
+last.innerHTML = `Last Modification:${document.lastModified}`;
