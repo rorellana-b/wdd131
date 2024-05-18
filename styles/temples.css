@@ -9,7 +9,7 @@ header{
     display: block;
 
 }
-header section{
+header div{
     display: flex;
     align-items: center;
     justify-content: space-between;
