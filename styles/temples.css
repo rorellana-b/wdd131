@@ -70,6 +70,10 @@ figure{
     content: "☰";
     color: white;
 }
+figcaption{
+    text-align: center;
+    margin: 0%;
+}
 
 .show a{
     display: block;
@@ -97,6 +101,10 @@ figure{
 
     #menu{
         display: none;
+    }
+    .album{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
     
 }
