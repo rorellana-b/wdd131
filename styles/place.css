@@ -34,7 +34,6 @@ h2{
 .picture{
     background-color: var(--primary-color);
     padding: 2% 0%;
-    size-adjust: auto;
     margin: 0 auto;
     max-width: 100%;
     grid-column: 1/7;
@@ -79,7 +78,7 @@ td{
         width: 100%;
         height: 100%;
     }
-    .picture::before{
+    .picture::after{
         background-image: url("/images/hero-larger.webp");
     }
     h2{
