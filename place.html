@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+    <meta name="description" content="Information of a El Salvador">
+    <meta name="Author" content="Ronal Balmore Orellana Bonilla">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>El Salvador</h1>
+    </header>
+    <main>
+        <img class="picture" src="images/hero-large.webp" alt="Torogoz-picture" srcset="images/hero-small.webp 500w, images/hero-medium.webp 700w, images/hero-large.webp 1600w ">
+        <div class="conteiner">
+            <h2>Data</h2>
+            <table class="data">
+                <tr>
+                    <td class="first">Area:</td>
+                    <td >21,041 km</td>
+                </tr>
+                <tr>
+                    <td class="first">Population:</td>
+                    <td>6.336 mill</td>
+                </tr>
+                <tr>
+                    <td class="first">Capital:</td>
+                    <td>San Salvador</td>
+                </tr>
+                <tr>
+                    <td class="first">Languages:</td>
+                    <td>Spanish</td>
+                </tr>
+                <tr>
+                    <td class="first">Currency:</td>
+                    <td>US Dollar</td>
+                </tr>
+                <tr>
+                    <td class="first">Time Zone:</td>
+                    <td>GMT-6</td>
+                </tr>
+                <tr>
+                    <td class="first">Calling Code:</td>
+                    <td>+503</td>
+                </tr>
+                <tr>
+                    <td class="first">Internet TLD:</td>
+                    <td>.SV</td>
+                </tr>
+            </table>
+        </div>
+        <div class="wt-conteiner">
+            <h2>Wheather</h2>
+            <div id="weather-img">
+                <img src="/images/weatherIcon.svg" alt="">
+            </div>
+            <table class="weather">
+                <tr>
+                    <td class="first">Temperature:</td>
+                    <td>35&deg;C</td>
+                </tr>
+                <tr>
+                    <td class="first">Conditions:</td>
+                    <td>Partly Cloudy</td>
+                </tr>
+                <tr>
+                    <td class="first">Wind:</td>
+                    <td>5 km/h</td>
+                </tr>
+                <tr>
+                    <td class="first">Wind Chill:</td>
+                    <td id="windchill"></td>
+                </tr>
+            </table>
+        </div>
+        
+    </main>
+    <footer>
+        <p id="currentyear"></p>
+        <p id="modification">mmm</p>
+    </footer>
+</body>
+</html>
