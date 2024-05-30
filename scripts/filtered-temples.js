@@ -77,7 +77,7 @@ const temples = [
   {
     templeName: "El Salvador",
     location: "San Salvador, El Salvador",
-    dedicated: "2011, Agoust, 21",
+    dedicated: "2011, August, 21",
     area: 60642,
     imageUrl:
     "https://www.churchofjesuschrist.org/imgs/8c084fef6033bfd96c430cec43236af0b41740f5/full/320%2C/0/default"
