@@ -1,0 +1,126 @@
+:root{
+    --primary-color: #192A51;
+    --secundary-color: #7E8987;
+    --third-color: #E3B505;
+}
+header{
+    background-color: var(--primary-color);
+    color: white;
+    display: block;
+
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 5%;
+}
+section{
+    background-color: lightcyan;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+#modification{
+    color: var(--third-color);
+}
+h1{
+    font-size: 1.5rem;
+    padding: 2%;
+    margin: 0% 5%;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    list-style: none;
+    justify-content: space-between;
+    padding: 2% 5%;
+    justify-content: center;
+}
+nav a{
+    display: none;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 0% 5%;
+}
+nav a:hover{
+    color: var(--third-color);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.02em;
+}
+
+main{
+    width: auto;
+    align-content: center;
+}
+
+
+#menu::before{
+    content: "☰";
+    color: white;
+}
+figcaption{
+    text-align: center;
+    margin: 0%;
+}
+
+.show a{
+    display: block;
+}
+
+#menu.show::before{
+    content: "X";
+}
+
+@media only screen and (min-width:40em) {
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .navigation{
+        display: flex;
+        margin:0% 5%;
+    }
+    .navigation a{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu{
+        display: none;
+    }
+    .res-grid{
+        min-width: min-content;
+        max-width: max-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    
+    }
+    
+    @media only screen and (min-width:60em) {
+        
+        .res-grid{
+            min-width: min-content;
+            max-width: max-content;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr)
+        
+        }
+}
+}
