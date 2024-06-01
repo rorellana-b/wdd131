@@ -57,7 +57,7 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 p {
-  font-family: var(IM+Fell+French+Canon+SC);
+  font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
@@ -110,8 +110,8 @@ nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  color: var(red);
-  background-color: var(#fffff2);
+  color: red;
+  background-color:#fffff2;
 }
 .sitemap {
   display: grid;
