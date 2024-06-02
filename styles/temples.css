@@ -20,6 +20,7 @@ footer{
     background-color: var(--primary-color);
     color: white;
     text-align: center;
+    position: fixed;
 }
 
 #modification{
@@ -75,11 +76,11 @@ figcaption{
     margin: 0%;
 }
 
-.show a{
+.show nav a{
     display: block;
 }
 
-#menu.show::before{
+nav.show::before{
     content: "X";
 }
 
@@ -106,5 +107,7 @@ figcaption{
         display: grid;
         grid-template-columns: repeat(3, 1fr)
     }
-    
+    footer{
+        margin-top: -40px;
+    }
 }
