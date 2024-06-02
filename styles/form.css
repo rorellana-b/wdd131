@@ -55,14 +55,14 @@ h1{
 #rating{
     text-align: left;
 }
-#choice, #name{
+.choice, #name{
     margin: .05rem;
 }
-#choice label{
+.choice label{
     display: block;
     padding: .2rem;
 }
-#choice span{
+main span{
     color: blue;
 }
 #txarea{
@@ -70,6 +70,8 @@ h1{
     width: 100%;
     max-width: 400px;
     height: 4rem;
+    border: #fff;
+    border-radius: 6px;
 }
 #name label{
     display: block;
@@ -77,6 +79,9 @@ h1{
 #txname{
     width: 100%;
     max-width: 400px;
+    height: 1.5rem;
+    border: #fff;
+    border-radius: 6px;
 }
 .wf1 input[type="submit"]{
     border: none;

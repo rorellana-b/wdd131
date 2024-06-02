@@ -32,7 +32,6 @@
                 <legend>Overall Rating</legend>
                 <label><input type="radio" name="star" value="1" required>✩</label>
                 <label><input type="radio" name="star" value="2" required>✩✩</label>
-                <label><input type="radio" name="star" value="2" required>✩✩</label>
                 <label><input type="radio" name="star" value="3" required>✩✩✩</label>
                 <label><input type="radio" name="star" value="4" required>✩✩✩✩</label>
                 <label><input type="radio" name="star" value="5" required>✩✩✩✩✩</label>
@@ -40,20 +39,21 @@
             <fieldset>
                 <label>Date of installation<input type="date" name="completedate" required></label>
             </fieldset>
-            <fieldset id="choice">
+            <fieldset class="choice">
                 <div>Which features did you find useful in the product?</div>
                 <label>"(Check all that apply)"</label>
-                <label><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-                <label><input type="checkbox" name="code" value="yes">Coding</label>
-                <label><input type="checkbox" name="client" value="yes">FTP Client</label>
+                <label><input type="checkbox" name="editing" value="yes">Durability</label>
+                <label><input type="checkbox" name="code" value="yes">Ease of use</label>
+                <label><input type="checkbox" name="client" value="yes">Performence</label>
+                <label><input type="checkbox" name="client" value="yes">Design</label>
             </fieldset>
-            <fieldset id="choice">
+            <fieldset class="choice">
                 <label>Written Review <span>(Opcional)</span></label>
                 <textarea name="txarea" id="txarea"></textarea>
             </fieldset>
             <fieldset id="name">
                 <label>Your Name <span>(Opcional)</span></label>
-                <textarea name="txname" id="txname"></textarea>
+                <input type="text" id="txname" name="wname">
             </fieldset>
             <input type="submit" value="Propose my Course" id="btsubmit">
         </form>
