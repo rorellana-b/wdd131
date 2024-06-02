@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use of form en html and css">
+    <meta name="Author" content="Ronal Balmore Orellana Bonilla">
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+    <title>Form with HTML and CSS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get" class="wf1">
+
+            <fieldset>
+                <label>
+                    Product Name
+                </label>
+                <select name="subject" id="cproduct" required>
+                    <option value="">Choose a Product ...</option>
+                    <option value="">Chocolate</option>
+                </select>
+            </fieldset>
+            
+            <fieldset id="rating">
+                <legend>Overall Rating</legend>
+                <label><input type="radio" name="star" value="1" required>✩</label>
+                <label><input type="radio" name="star" value="2" required>✩✩</label>
+                <label><input type="radio" name="star" value="2" required>✩✩</label>
+                <label><input type="radio" name="star" value="3" required>✩✩✩</label>
+                <label><input type="radio" name="star" value="4" required>✩✩✩✩</label>
+                <label><input type="radio" name="star" value="5" required>✩✩✩✩✩</label>
+            </fieldset>
+            <fieldset>
+                <label>Date of installation<input type="date" name="completedate" required></label>
+            </fieldset>
+            <fieldset id="choice">
+                <div>Which features did you find useful in the product?</div>
+                <label>"(Check all that apply)"</label>
+                <label><input type="checkbox" name="editing" value="yes">Photo Editing</label>
+                <label><input type="checkbox" name="code" value="yes">Coding</label>
+                <label><input type="checkbox" name="client" value="yes">FTP Client</label>
+            </fieldset>
+            <fieldset id="choice">
+                <label>Written Review <span>(Opcional)</span></label>
+                <textarea name="txarea" id="txarea"></textarea>
+            </fieldset>
+            <fieldset id="name">
+                <label>Your Name <span>(Opcional)</span></label>
+                <textarea name="txname" id="txname"></textarea>
+            </fieldset>
+            <input type="submit" value="Propose my Course" id="btsubmit">
+        </form>
+        
+
+
+    </main>
+    <footer>
+        <p id="currentyear"></p>
+        <p id="modification">mmm</p>
+    </footer>
+</body>
+
+</html>

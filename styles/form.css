@@ -1,0 +1,112 @@
+:root{
+    --primary-color: #192A51;
+    --secundary-color: #7E8987;
+    --third-color: #E3B505;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+#modification{
+    color: var(--third-color);
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: .5rem;
+    text-align: center;
+}
+
+.wf1{
+    margin: 0%;
+    background-color: #ddd;
+}
+
+
+.wf1 fieldset{
+    margin: .2em 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .3rem 2%;
+}
+
+.wf1 legend{
+    padding: 0 .5rem;
+    text-align: left;
+}
+
+.wf1 select,
+.wf1 input[type="date"],
+.wf1 input[type="input"]{
+    background-color: #fff;
+    display: block;
+    border: solid 1px #fff;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+#rating{
+    text-align: left;
+}
+#choice, #name{
+    margin: .05rem;
+}
+#choice label{
+    display: block;
+    padding: .2rem;
+}
+#choice span{
+    color: blue;
+}
+#txarea{
+    margin-top: .1rem;
+    width: 100%;
+    max-width: 400px;
+    height: 4rem;
+}
+#name label{
+    display: block;
+}
+#txname{
+    width: 100%;
+    max-width: 400px;
+}
+.wf1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(var(--secundary-color), var(--primary-color));
+    color: #fff;
+    font-size: large;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400%;
+    margin: 1% 2% 2% 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+
+#visitorCounter {
+    font-size: 20px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
