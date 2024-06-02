@@ -1,8 +1,6 @@
 const dates = document.querySelector("#currentyear");
 const last = document.querySelector("#modification");
 
-const visitDisplay = document.querySelector(".visits");
-
 
 
 const today = new Date();
@@ -50,13 +48,7 @@ products.forEach(product => {
 
 } );
 
-// Counting the visits to my page 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
-localStorage.setItem("visits-ls", numVisits);
-
-numVisits++;
-visitDisplay.innerHTML = numVisits
 
 
 
