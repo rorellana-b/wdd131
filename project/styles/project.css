@@ -98,7 +98,6 @@ nav a:hover {
     border: solid #0047AB;
     border-radius: 6px;
     opacity: 85%;
-    box-shadow: #000;
 }
 
 
@@ -170,7 +169,6 @@ h2{
     opacity: 10;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
-  position: -1rem;
 
 }
 .res-grid h3{
